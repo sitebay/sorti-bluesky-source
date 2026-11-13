@@ -1,0 +1,63 @@
+{
+  "format": "sorti.public-upstream-source-fork/1",
+  "repository": "https://github.com/sitebay/sorti-bluesky-source",
+  "maintenanceBranch": "sorti/remix-8fe5fcb",
+  "upstream": {
+    "repository": "https://github.com/bluesky-social/social-app",
+    "commit": "8fe5fcb69755160fc913adf8f6cf76318c92b608",
+    "tree": "f48e9778af12a307c5a74976c34e35efad3672b0",
+    "files": 3928,
+    "bytes": 90837171,
+    "gitInventoryFormat": "sorted path/mode/gitBlob/bytes JSON, sorted object keys, compact separators",
+    "gitInventorySha256": "c36cda836a85182b08fc3bf104a584e9dda9abcedceb3942bfc03e67de7f6393",
+    "package": {
+      "name": "bsky.app",
+      "version": "1.138.0"
+    }
+  },
+  "toolchain": {
+    "node": ">=24.22.1",
+    "runtime": "^24.22.1",
+    "packageManager": "pnpm@11.28.5"
+  },
+  "notices": {
+    "LICENSE": "67d4cc159fec22b2c88998ed6dac344d8e1d20f55aff903686745b0c7df1e5c0",
+    "ASSETS.md": "5221d0c06ede02a5d93ef545566e554a4d751864acbb7389f1b41168b109cd35",
+    "NOTICE.md": "143351a085f5201e4e0ad03af4da5479b89fa03f9a4b7031de692422ebade48f"
+  },
+  "sourceCodeLicense": {
+    "spdx": "MIT",
+    "path": "LICENSE"
+  },
+  "assetLicensePolicy": {
+    "path": "ASSETS.md",
+    "noticePath": "NOTICE.md",
+    "allAssetsCoveredByMIT": false,
+    "redistributionReadyAdaptation": false,
+    "requiredBeforeDistribution": "Replace or separately authorize the assets and branding identified by ASSETS.md; retain all applicable notices."
+  },
+  "changePolicy": {
+    "baseCommit": "8fe5fcb69755160fc913adf8f6cf76318c92b608",
+    "allowedPaths": [
+      "README.md",
+      "REMIX.md",
+      "SORTI_SOURCE.json"
+    ],
+    "applicationCodeChanged": false,
+    "assetsChanged": false,
+    "dependencyLocksChanged": false,
+    "upstreamWorkflowsChanged": false,
+    "workflowFileCount": 23,
+    "noticesChanged": false,
+    "upstreamHistoryPreserved": true
+  },
+  "remixGuide": {
+    "path": "REMIX.md",
+    "sha256": "affdf46b301ce3433a7a9f5dc0a14158407d5c314fe35a8ebd4bc5f0ba286f37"
+  },
+  "qualification": {
+    "source": "Complete original upstream tree plus three maintenance documents.",
+    "build": "No build result is asserted by this source commit; qualify this exact commit separately.",
+    "runtime": "Original account/workspace binding, imported bridge, interactive acceptance and publication are separate operations."
+  }
+}

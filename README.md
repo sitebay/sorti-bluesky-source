@@ -88,3 +88,14 @@ Bluesky Social PBC has committed to a software patent non-aggression pledge. For
 ## P.S.
 
 We ❤️ you and all of the ways you support us. Thank you for making Bluesky a great place!
+
+
+## SiteBay maintained source and remix guide
+
+This is the public sitebay/sorti-bluesky-source source fork maintained by SiteBay. It is not an official Bluesky product or support channel.
+
+The sorti/remix-8fe5fcb maintenance branch starts from upstream 8fe5fcb69755160fc913adf8f6cf76318c92b608 (bsky.app 1.138.0). It appends this section and adds [REMIX.md](REMIX.md) and [SORTI_SOURCE.json](SORTI_SOURCE.json). All original application files, dependency locks, 23 GitHub workflow files, assets and notices remain unchanged. Use the exact maintenance commit for a complete source import.
+
+Read [REMIX.md](REMIX.md) for the source map, pinned Node/pnpm toolchain, original build commands, a concrete customization and interruption recovery. Read [ASSETS.md](ASSETS.md) and [NOTICE.md](NOTICE.md) before adapting or distributing the app: the MIT code license does not cover every asset. Replace or authorize the listed artwork/icons/branding and use your own support and analytics systems before distributing an adaptation.
+
+This source fork grants no Bluesky account access and does not install, publish or qualify a Sorti runtime. Keep source and guides in Git; use object storage only for permitted immutable artifacts with their source pins and digests. Maintenance questions for this fork belong with [sitebay on GitHub](https://github.com/sitebay).
